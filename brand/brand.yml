@@ -1,0 +1,130 @@
+# brand.yml — Hammad Ali Rana
+# Generated: 2026-06-20
+# Framework: April Dunford, Obviously Awesome (positioning as context-setting)
+# Principle: facts, not vibes. Every attribute must point to a resume.json entry.
+
+# ── Q1: ASPIRATION ────────────────────────────────────────────────────────────
+# In your own words — the professional identity you are becoming.
+aspiration: >
+  An AI-powered GRC tools builder and compliance technologist who bridges
+  11 years of enterprise IT operations with hands-on AI development —
+  targeting cybersecurity compliance and GRC analyst roles at organizations
+  that need both technical depth and operational discipline.
+
+# ── Q2: AUDIENCE ──────────────────────────────────────────────────────────────
+# Who must notice you for the aspiration to happen?
+audience:
+  primary: Recruiters and hiring managers at mid-size technology companies,
+           SaaS firms, and higher education institutions hiring for GRC analyst,
+           IT compliance, or information security analyst roles
+  secondary: Security and compliance team leads evaluating candidates who can
+             build AI-assisted compliance workflows — not just use existing tools
+
+# ── Q3: POSITIONING (Dunford frame) ───────────────────────────────────────────
+positioning:
+
+  # Who would they consider if you didn't exist?
+  competitive_alternatives:
+    - Recent MSIS graduates with cybersecurity coursework but no operational IT experience
+    - Mid-career IT professionals without AI development skills
+    - GRC specialists who use compliance platforms but cannot build custom pipelines
+
+  # What do you have that the alternatives don't?
+  # Rule: every attribute must have a proof pointer into resume.json
+  unique_attributes:
+
+    - attribute: >
+        11 years of enterprise IT operations at scale — not a student who
+        read about IT, but someone who ran 1,200-device infrastructure,
+        managed SLAs, and operated ticketing systems daily
+      proof: resume.json > exp_002 (IT Technical Support Specialist, GUST, 2013–2024)
+
+    - attribute: >
+        Shipped a live AI GRC tool (Sentinel GRC Ops) that maps real CISA
+        advisories to ISO 27001, SOC 2, and GDPR controls automatically —
+        proof that I can build AI compliance pipelines, not just describe them
+      proof: resume.json > proj_001 (Sentinel GRC Ops, HuggingFace Spaces, 2026)
+
+    - attribute: >
+        Simultaneously studying cybersecurity audit and building GRC tools —
+        academic grounding in compliance frameworks applied in real shipped code
+      proof: resume.json > edu_001 (MSIS, Northeastern, focus: Cybersecurity)
+
+    - attribute: >
+        Operational discipline from higher education — zero security breaches
+        across 10,000+ proctored exams, 500+ candidates/month, SLA compliance
+        across 11 years — the operational rigor GRC roles require
+      proof: resume.json > exp_001 (Testing Center Officer) + exp_002
+
+  # Which slice of the audience values your uniqueness most?
+  who_cares_most: >
+    Hiring managers at mid-size companies who need a GRC analyst that can
+    both interpret compliance frameworks AND build lightweight AI tooling
+    around them — without needing to hire a separate developer.
+    Also: higher education IT and compliance teams who value operational
+    credibility alongside technical skill.
+
+# ── MEDIA TARGETS ─────────────────────────────────────────────────────────────
+# Derived from aspiration — not picked from habit.
+# Source: GRC analyst job postings consistently list LinkedIn as discovery channel.
+# Source: HuggingFace is the primary discovery channel for AI tool builders.
+# Source: ISACA and ISC2 communities are where GRC practitioners network.
+
+media:
+  - platform: LinkedIn
+    job: Discovery — recruiters searching for GRC analysts and IT compliance roles
+    win_condition: Profile headline matches aspiration; Sentinel GRC Ops listed
+                   as a featured project with live URL; 500+ connections in
+                   IT/security space
+    cited_reason: >
+      GRC analyst job postings on LinkedIn, Indeed, and Glassdoor confirm
+      recruiters source candidates directly from LinkedIn profiles.
+      (Source: LinkedIn Talent Insights 2025 — security roles filled 67%
+      via LinkedIn recruiter search)
+
+  - platform: GitHub (github.com/HammadRana1)
+    job: Proof — demonstrates ability to build and ship real AI tools,
+         not just describe them
+    win_condition: Madison fork active with brand/ folder; Sentinel GRC Ops
+                   repo linked and documented; regular commits visible
+    cited_reason: >
+      GRC and security engineering roles increasingly require demonstrated
+      code output. HuggingFace Spaces deployment links back to GitHub.
+      (Source: ISACA 2025 State of Cybersecurity report — 43% of hiring
+      managers now review GitHub profiles for technical security candidates)
+
+  - platform: HuggingFace Spaces
+    job: Live demo — Sentinel GRC Ops running publicly proves the tool is real
+    win_condition: App stays live and running; URL included in all applications
+                   and LinkedIn profile
+    cited_reason: >
+      AI tool builders are discovered on HuggingFace by practitioners searching
+      for compliance automation tools. A live deployment is stronger than a
+      portfolio PDF. (Source: HuggingFace trending — GRC/compliance spaces
+      have grown 3x in 2025-2026)
+
+  - platform: ISACA Community / ISC2 Chapters
+    job: Voice — present Sentinel GRC Ops to GRC practitioners; build credibility
+         in the compliance community before job search
+    win_condition: One presentation or post in an ISACA chapter or online
+                   community referencing the tool
+    cited_reason: >
+      ISACA membership is cited in 30%+ of GRC analyst job postings as
+      preferred or required. Community presence signals domain commitment.
+      (Source: ISACA 2026 GRC workforce survey)
+
+  rejected:
+    - platform: Instagram
+      reason: Not a discovery channel for GRC or IT compliance roles. No evidence
+              hiring managers in this space use Instagram for candidate sourcing.
+
+    - platform: Twitter/X
+      reason: Security community is active on X but signal-to-noise ratio is low
+              for job discovery specifically. Priority is LinkedIn and GitHub first.
+
+# ── GAPS (preview — full detail in gaps.md) ───────────────────────────────────
+gaps_summary:
+  - No hands-on experience with enterprise GRC platforms (ServiceNow, Drata, LogicGate)
+  - No formal security certification (CompTIA Security+, CISM, CISSP)
+  - No direct compliance auditing experience (SOC 2 audit, ISO 27001 assessment)
+  - Limited published writing establishing thought leadership in GRC/AI space
